@@ -1,0 +1,15 @@
+Package: AddHealthCleanR
+Type: Package
+Title: Clean and Label Add Health Datasets
+Version: 0.1.0
+Authors@R: 
+    person("Jacob", "Jameson", , "jacobjameson@g.harvard.edu", role = c("aut", "cre"),
+           comment = c(ORCID = "0009-0000-6980-2982"))
+Description: Provides functions to clean and label Add Health datasets using an internal codebook.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+  dplyr,
+  jsonlite
+RoxygenNote: 7.2.3
